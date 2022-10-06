@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com  'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+        <meta name="color-scheme" content="light dark">
+
+		<link rel="stylesheet" href="css/themes/mytheme.css">
+		<link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css">
+		<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css">		
+		<link rel="stylesheet" href="css/fontawesome-free-6.1.1-web/css/all.css" rel="stylesheet">
+
+        <script src="js/jquery-2.1.4.min.js"></script>
+		<script src="js/jquery.mobile-1.4.5.min.js"></script>
+
+        <link rel="stylesheet" href="css/index.css">
+        <title>Hello World</title>
+    </head>
+    <body>
+        <div data-role="page" id="about">
+            <div data-role="header">
+                <h1>台北市Youbike2.0即時資訊</h1>
+            </div>
+            <div data-role="main" class="ui-content"  style="text-align:center">
+                <img src="data:image/png;base64,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">
+                <p>讓使用者能夠即時了解台北市Youbike2.0站點的出借情況</p>
+                <a href="#main" class="ui-btn ui-btn-inline ui-corner-all">進入</a>
+            </div>
+            <div data-role="footer" data-position="fixed">
+            <h1>製作者:A7251214 張宏文</h1>
+            </div>		
+        </div>
+    
+        <div data-role="page" id="main">
+            <div data-role="header">
+                <h1>台北市Youbike2.0即時資訊</h1>
+            </div>
+
+            <div data-role="main" class="ui-content">
+                <div class="ui-field-contain">
+                    <select name="sareas" id="sareas">
+                        <option selected hidden disabled value="">請選擇區域</option>
+                    </select>
+                    <ul id="resultList" data-role="listview" data-inset="true" data-filter="true" data-filter-placeholder="搜尋">
+
+                    </ul>
+                    <!-- <ul id="resultList" data-role="listview" data-inset="true">
+                        <li>
+                            <h2>YouBike2.0_捷運科技大樓站</h2>
+                            <div>大安區</div>
+                            <div>借：<span>還：</span></div>
+                        </li>
+                    </ul> -->
+                </div>
+            </div>
+
+            <div data-role="footer" data-position="fixed">
+                <div data-role="navbar" data-iconpos="bottom">
+                    <ul>
+                        <li><a href="#main" data-icon="home" class="ui-btn-active ui-state-persist">首頁</a></li>
+                        <li><a href="#myfavor" data-icon="star" data-transition="slide">我的最愛</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div data-role="page" id="myfavor">
+            <div data-role="header">
+                <h1>台北市Youbike2.0即時資訊</h1>
+            </div>
+
+            <div data-role="main" class="ui-content">
+                <ul id="myfavorList" data-role="listview" data-inset="true" data-filter="true" data-filter-placeholder="搜尋">
+
+                </ul>
+            </div>
+
+            <div data-role="footer" data-position="fixed">
+                <div data-role="navbar" data-iconpos="bottom">
+                    <ul>
+                        <li><a href="#main" data-icon="home" data-transition="slide">首頁</a></li>
+                        <li><a href="#myfavor" data-icon="star" class="ui-btn-active ui-state-persist">我的最愛</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+		<script type="text/javascript" src="cordova.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+    </body>
+</html>
